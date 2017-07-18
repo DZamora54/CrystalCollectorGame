@@ -1,0 +1,60 @@
+<!--with more time i would have used css to make the game look much prettier. i also would have refactored the javascript to make the whole thing into one object and make it a lot more simple and readable-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Crystal Collector Game</title>
+<!-- Added link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    <h1>Crystal Collector Game</h1>
+  </div>
+
+  <div id="container">
+    <div class="row">
+      <div class="col-xs-2">empty space on left</div>
+      <div class="col-xs-3">
+      	<h3>Your Score</h3>
+      	<div id="yourScore"></div>
+      </div>
+      <div class="col-xs-2" id="winsLosses">wins and losses div
+      </div>
+      <div class="col-xs-3">
+        <h3>Target Score</h3>
+        <div id="targetScore"></div>
+      </div>
+      <div class="col-xs-2">empty space on right div</div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3">empty space on left</div>
+      <div class="col-xs-6">
+      	<div class="gem" id="gemOne">gem 1</div>
+      	<div class="gem" id="gemTwo">gem 2</div>
+      	<div class="gem" id="gemThree">gem 3</div>
+      	<div class="gem" id="gemFour">gem 4</div>
+      </div>
+      <div class="col-xs-3">empty space on right</div>
+    </div>
+
+    <div>
+      <p>Click on game title to start/restart game</p>
+      <p>You will be given a random number at the start of the game.</p>
+      <p>There are four crystals above. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+      <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p>Each time when the game starts, the game will change the values of each crystal</p>
+    </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
