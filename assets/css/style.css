@@ -2,6 +2,10 @@ div {
 	border-style: solid;
 	border-color: #A9A9A9;
 }
+p {
+	margin-left: 50px;
+	text-align: justify;
+}
 .row {
 	height: 100px;
 }
@@ -37,4 +41,29 @@ div {
 }
 #winsLosses {
 	font-size: 20;
+}
+
+#gemOne {
+	background-color: blue;
+	border-style: solid;
+	border-color: black;
+	border-width: 20px;
+}
+#gemTwo {
+	background-color: green;
+	border-style: solid;
+	border-color: black;
+	border-width: 20px;
+}
+#gemThree {
+	background-color: orange;
+	border-style: solid;
+	border-color: black;
+	border-width: 20px;
+}
+#gemFour {
+	background-color: yellow;
+	border-style: solid;
+	border-color: black;
+	border-width: 20px;
 }
