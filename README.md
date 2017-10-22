@@ -1,4 +1,4 @@
-# week-4-game
+# Crystal Collector Game
 
 This app dynamically updates HTML pages with the jQuery library.
 
